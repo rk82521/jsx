@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Smart Bill Payments & Rewards",
+      "points": [ 
+        "AI-powered reminders, split bills easily.",
+        "Eco-rewards for sustainable payments.",
+        "Voice powered easy payments."
+
+      ]
+    },
+    {
+      "title": "Bulk Payments & Reconciliation",
+      "points": [ 
+        "Pay invoices in bulk via UPI.",
+        "Auto-reconcile with Tally/ERP.",
+        "Access instant credit lines."
+
+      ]
+    },
+    {
+      "title": "Cross-Border UPI for NRIs",
+      "points": [ 
+        "Pay Indian bills directly from abroad.",
+        "Real-time forex conversion.",
+        "Family account management."
+
+      ]
+    }
+    
+  ]
