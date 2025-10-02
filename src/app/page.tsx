@@ -4,11 +4,13 @@ import data from './component/data.json'
 import ExperienceSection from './component/Experiencesection';
 import Howitworks from './component/Howitworks';
 import UserOpinion from  './component/UserOpinion'
+import Frequentaskedquestions from './component/Frequentaskedquestions';
+
 
 const App = () => {
   return (
-    <div className="  min-h-screen  width-50vw bg-gradient-to-b from-black via-green-800  text-white  p-16  "> ///m-30
-      <h1 className="text-5xl font-bold  text-center  mb-2">
+    <div className="  min-h-screen  width-50vw bg-gradient-to-b from-black via-green-800  text-white  p-6  "> ///m-30
+      <h1 className="text-5xl font-bold  text-center ml-4 sm:ml-8 lg:ml-12 mb-2">
         Built for Individuals, Businesses and NRIs
       </h1>
       <p className="text-center  w-[90%] px-30  text-xl text-gray-400 h-10 mt-10 mb-20">
@@ -16,7 +18,7 @@ const App = () => {
               businesses
       </p>
 
-      <div className="space-y-13 flex w-full relative  flex-col p-18">
+      <div className="space-y-13 flex w-full relative  flex-col p-10">
       
       {data.map((obj,idx) =>(
                 <FeatureCard key={idx} title={obj.title} points={obj.points} />
@@ -28,6 +30,11 @@ const App = () => {
       <Howitworks />
 
       <UserOpinion /> 
+
+      <Frequentaskedquestions/>
+
+      {/* <FaqItem /> */}
+
       
       </div>
       <div className='w-full h-80'></div>
@@ -36,16 +43,7 @@ const App = () => {
 
     </div>
 
-    
-
-  
   );
-
-  
 };
-
-
-
-
 
 export default App;

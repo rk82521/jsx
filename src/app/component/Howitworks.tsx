@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Howitworks = () => {
   return (
-    <div className="z-10 relative w-full min-h-screen bg-black flex flex-col items-center justify-center px-4 sm:px-10 md:px-20">
+    <div className="z-10 relative w-[88%] min-h-screen bg-black flex flex-col items-center justify-center px-4 sm:px-10 md:px-20 ml-10 ">
       {/* Heading */}
       <h1 className="z-10 relative font-extrabold text-3xl sm:text-4xl md:text-6xl text-center text-white">
         How it works
